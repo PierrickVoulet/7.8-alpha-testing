@@ -1,0 +1,47 @@
+{
+  "designerVersion" : "1.8.15",
+  "id" : "page",
+  "name" : "page",
+  "lastUpdate" : 1538680426153,
+  "rows" : [ [ {
+    "type" : "fragment",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "2f38511b-48c2-47c3-a89d-952198d2130d",
+    "id" : "fragment",
+    "binding" : { }
+  } ] ],
+  "assets" : [ {
+    "id" : "aa7449d2-0a7c-4001-9c69-ee09581bee85",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "30ed27aa-c741-4d85-84b8-9d7d2c3127df",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "uuid" : "34538bed-a22e-47de-89e8-5fe84ec82065",
+  "type" : "page",
+  "description" : "Page generated with Bonita UI designer",
+  "displayName" : "page page"
+}

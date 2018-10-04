@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kpi:DatabaseKPIDefinition xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:kpi="http://www.bonitasoft.org/ns/studio/kpi" name="fwef" version="7.8.0-002" defaultTableName="ewf">
+  <fields fieldName="wef" fieldType="wef"/>
+  <defaultDriverclassName content=""/>
+  <defaultJdbcUrl content=""/>
+  <defaultUser content=""/>
+  <defaultPassword content=""/>
+  <defaultDBName/>
+</kpi:DatabaseKPIDefinition>

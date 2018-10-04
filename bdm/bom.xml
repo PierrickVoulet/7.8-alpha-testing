@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.8.0-SNAPSHOT">
+    <businessObjects>
+        <businessObject qualifiedName="com.company.model.BusinessObject1">
+            <fields>
+                <field type="STRING" length="255" name="attribute1" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="attribute2" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="attribute3" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="attribute4" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries>
+                <query name="query1" content="SELECT b &#xA;FROM BusinessObject1 b &#xA;WHERE b.attribute1 = :attribute1&#xA;AND b.attribute2 IN (:attribute2)&#xA;AND b.attribute3 = :attribute3&#xA;AND b.attribute4 = :attribute4&#xA;ORDER BY b.persistenceId ASC" returnType="java.util.List">
+                    <queryParameters>
+                        <queryParameter name="attribute1" className="java.lang.String"/>
+                        <queryParameter name="attribute2" className="java.lang.String"/>
+                        <queryParameter name="attribute3" className="java.lang.String"/>
+                        <queryParameter name="attribute4" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
